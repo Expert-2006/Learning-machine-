@@ -1,0 +1,25 @@
+DSN ML TRACK - QUICK START
+
+1. Put these files in the same folder:
+   - train.csv
+   - test.csv
+   - sample_submission.csv
+
+2. Open dsn_ml_model.py in Pydroid 3.
+
+3. Install required packages in Pydroid:
+   pip install pandas numpy scikit-learn
+
+4. Run the script.
+
+5. It will create:
+   submission_advanced_ensemble.csv
+
+6. Open the generated CSV and compare its columns/row count with
+   sample_submission.csv before uploading to Kaggle.
+
+IMPORTANT:
+The exact competition dataset columns should be inspected before
+the final run. The script is intentionally adaptive, but once you
+send me train.csv/test.csv/sample_submission.csv, I can tailor the
+features and submission format exactly to this competition.
